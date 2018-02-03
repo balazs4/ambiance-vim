@@ -29,7 +29,7 @@ hi xmlEndTag       guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=blac
 hi htmlTag         guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
 hi htmlTagName     guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
 hi htmlEndTag      guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
-hi Boolean         guifg=#A0A0A0    guibg=#000000    ctermfg=198    ctermbg=black    gui=NONE         cterm=NONE
+hi Boolean         guifg=#FF0080    guibg=#000000    ctermfg=198    ctermbg=black    gui=NONE         cterm=NONE
 hi DiffChange      guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi DiffDelete      guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi DiffText        guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
