@@ -15,6 +15,8 @@ if exists("syntax_on")
 endif
 set background=dark
 
+let g:colors_name = "ambiance"
+
 hi clear ALEErrorSign
 hi clear ALEWarningSign
 hi ALEWarningSign ctermfg=yellow
