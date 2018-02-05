@@ -35,7 +35,7 @@ hi DiffDelete      guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=blac
 hi DiffText        guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Directory       guifg=#A0A0A0    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
 hi Error           guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi Function        guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=black    gui=BOLD         cterm=BOLD
+hi Function        guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=black    gui=BOLD         cterm=BOLD
 hi Identifier      guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Ignore          guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi LineNr          guifg=#626262    guibg=#000000    ctermfg=240    ctermbg=black    gui=NONE         cterm=NONE
