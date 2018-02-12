@@ -71,7 +71,7 @@ hi WildMenu        guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=blac
 hi Conditional     guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Constant        guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Type            guifg=#A0A0A0    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE     
-hi String          guifg=#A8A8A8    guibg=#000000    ctermfg=251    ctermbg=NONE     gui=NONE         cterm=NONE
+hi String          guifg=#C6C6C6    guibg=#000000    ctermfg=251    ctermbg=NONE     gui=NONE         cterm=NONE
 hi Comment         guifg=#585858    guibg=#000000    ctermfg=240    ctermbg=black    gui=ITALIC       cterm=NONE
 hi Visual          guifg=#FFFFFF    guibg=#ff00ff    ctermfg=white  ctermbg=13       gui=ITALIC       cterm=NONE
 hi CursorLine      guifg=#262626    guibg=NONE       ctermfg=NONE   ctermbg=235      gui=NONE         cterm=NONE
