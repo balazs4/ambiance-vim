@@ -46,9 +46,9 @@ hi NonText         guifg=#949494    guibg=#000000    ctermfg=black  ctermbg=blac
 hi Normal          guifg=#949494    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
 hi Number          guifg=#C6C6C6    guibg=#000000    ctermfg=251    ctermbg=black    gui=NONE         cterm=NONE
 hi Operator        guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi PmenuSbar       guifg=#949494    guibg=#1c1c1c    ctermfg=246    ctermbg=234      gui=NONE         cterm=NONE
-hi PmenuSel        guifg=#949494    guibg=#1c1c1c    ctermfg=246    ctermbg=234      gui=ITALIC       cterm=NONE
-hi PmenuThumb      guifg=#949494    guibg=#1c1c1c    ctermfg=246    ctermbg=234      gui=NONE         cterm=NONE
+hi PmenuSbar       guifg=#949494    guibg=#1C1C1C    ctermfg=246    ctermbg=234      gui=NONE         cterm=NONE
+hi PmenuSel        guifg=#949494    guibg=#1C1C1C    ctermfg=246    ctermbg=234      gui=ITALIC       cterm=NONE
+hi PmenuThumb      guifg=#949494    guibg=#1C1C1C    ctermfg=246    ctermbg=234      gui=NONE         cterm=NONE
 hi PreProc         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Repeat          guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Special         guifg=#949494    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
