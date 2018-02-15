@@ -56,7 +56,7 @@ hi SpecialKey      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=blac
 hi Statement       guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi StatusLine      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi StatusLineNC    guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=ITALIC       cterm=NONE
-hi StorageClass    guifg=#A5FFFD    guibg=#000000    ctermfg=159    ctermbg=black    gui=BOLD         cterm=BOLD
+hi StorageClass    guifg=#87FFD7    guibg=#000000    ctermfg=122    ctermbg=black    gui=BOLD         cterm=BOLD
 hi Structure       guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=BOLD         cterm=BOLD
 hi TabLine         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi TabLineFill     guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
@@ -71,7 +71,7 @@ hi WildMenu        guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=blac
 hi Conditional     guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Constant        guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Type            guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE     
-hi String          guifg=#C6C6C6    guibg=#000000    ctermfg=251    ctermbg=NONE     gui=NONE         cterm=NONE
+hi String          guifg=#D0D0D0    guibg=#000000    ctermfg=252    ctermbg=NONE     gui=NONE         cterm=NONE
 hi Comment         guifg=#585858    guibg=#000000    ctermfg=240    ctermbg=black    gui=ITALIC       cterm=NONE
 hi Visual          guifg=#FFFFFF    guibg=#ff00ff    ctermfg=white  ctermbg=13       gui=ITALIC       cterm=NONE
 hi CursorLine      guifg=#262626    guibg=NONE       ctermfg=NONE   ctermbg=235      gui=NONE         cterm=NONE
