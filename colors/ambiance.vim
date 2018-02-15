@@ -1,4 +1,4 @@
-" Minimal focus theme
+" Minimal dark color theme
 "
 " https://github.com/zenorocha/dracula-theme
 "
