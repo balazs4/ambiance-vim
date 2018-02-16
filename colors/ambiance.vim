@@ -1,4 +1,4 @@
-" Minimal focus theme
+" Minimal dark color theme
 "
 " https://github.com/zenorocha/dracula-theme
 "
@@ -73,7 +73,7 @@ hi Constant        guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=blac
 hi Type            guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE     
 hi String          guifg=#D0D0D0    guibg=#000000    ctermfg=252    ctermbg=NONE     gui=NONE         cterm=NONE
 hi Comment         guifg=#585858    guibg=#000000    ctermfg=240    ctermbg=black    gui=ITALIC       cterm=NONE
-hi Visual          guifg=#FFFFFF    guibg=#ff00ff    ctermfg=white  ctermbg=13       gui=ITALIC       cterm=NONE
+hi Visual          guifg=#FFFFFF    guibg=#af00af    ctermfg=white  ctermbg=127       gui=ITALIC       cterm=NONE
 hi CursorLine      guifg=#262626    guibg=NONE       ctermfg=NONE   ctermbg=235      gui=NONE         cterm=NONE
 hi CursorLineNr    guifg=#262626    guibg=NONE       ctermfg=NONE   ctermbg=235      gui=NONE         cterm=NONE
 hi def link jsObjectKey Statement
