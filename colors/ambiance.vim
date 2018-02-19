@@ -48,7 +48,7 @@ hi Number          guifg=#D0D0D0    guibg=#000000    ctermfg=252    ctermbg=blac
 hi Operator        guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Pmenu           guifg=#949494    guibg=#1C1C1C    ctermfg=246    ctermbg=234      gui=NONE         cterm=NONE
 hi PmenuSbar       guifg=#949494    guibg=#1C1C1C    ctermfg=246    ctermbg=234      gui=NONE         cterm=NONE
-hi PmenuSel        guifg=#949494    guibg=#FF0087    ctermfg=198    ctermbg=234      gui=ITALIC       cterm=NONE
+hi PmenuSel        guifg=#949494    guibg=#FF0087    ctermfg=246    ctermbg=198      gui=ITALIC       cterm=NONE
 hi PmenuThumb      guifg=#949494    guibg=#1C1C1C    ctermfg=246    ctermbg=234      gui=NONE         cterm=NONE
 hi PreProc         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Repeat          guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
@@ -57,7 +57,7 @@ hi SpecialKey      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=blac
 hi Statement       guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi StatusLine      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi StatusLineNC    guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=ITALIC       cterm=NONE
-hi StorageClass    guifg=#00FFD7    guibg=#000000    ctermfg=50     ctermbg=black    gui=BOLD         cterm=BOLD
+hi StorageClass    guifg=#AFFFFF    Guibg=#000000    ctermfg=159    ctermbg=black    gui=BOLD         cterm=BOLD
 hi Structure       guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=BOLD         cterm=BOLD
 hi TabLine         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi TabLineFill     guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
