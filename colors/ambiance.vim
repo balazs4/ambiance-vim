@@ -39,7 +39,7 @@ hi Function        guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=blac
 hi Identifier      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Ignore          guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi LineNr          guifg=#585858    guibg=#000000    ctermfg=240    ctermbg=black    gui=NONE         cterm=NONE
-hi MatchParen      guifg=#000000    guibg=#585858    ctermfg=240    ctermbg=159      gui=NONE         cterm=NONE
+hi MatchParen      guifg=#FFFFFF    guibg=#585858    ctermfg=240    ctermbg=159      gui=NONE         cterm=NONE
 hi ModeMsg         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi MoreMsg         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi NonText         guifg=#949494    guibg=#000000    ctermfg=black  ctermbg=black    gui=NONE         cterm=NONE
