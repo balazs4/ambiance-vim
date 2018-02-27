@@ -67,7 +67,7 @@ hi Type            guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=blac
 hi TypeDef         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=BOLD         cterm=BOLD
 hi Underlined      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=UNDERLINE    cterm=UNDERLINE
 hi VertSplit       guifg=#000000    guibg=#000000    ctermfg=black  ctermbg=black    gui=NONE         cterm=NONE
-hi WarningMsg      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
+hi WarningMsg      guifg=#000000    guibg=#ffff00    ctermfg=black  ctermbg=11       gui=NONE         cterm=NONE
 hi WildMenu        guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Conditional     guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi Constant        guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
