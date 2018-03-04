@@ -57,7 +57,7 @@ hi SpecialKey      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=blac
 hi Statement       guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi StatusLine      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi StatusLineNC    guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=ITALIC       cterm=NONE
-hi StorageClass    guifg=#AFFFFF    Guibg=#000000    ctermfg=159    ctermbg=black    gui=BOLD         cterm=BOLD
+hi StorageClass    guifg=#D7FFFF    Guibg=#000000    ctermfg=195    ctermbg=black    gui=BOLD         cterm=BOLD
 hi Structure       guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=BOLD         cterm=BOLD
 hi TabLine         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
 hi TabLineFill     guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
