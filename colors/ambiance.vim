@@ -1,11 +1,10 @@
 " Minimal dark color theme
 "
-" https://github.com/zenorocha/dracula-theme
+" https://github.com/romannmk/ambiance-vim
 "
 " Copyright 2018, All rights reserved
 "
 " Code licensed under the MIT license
-" http://zenorocha.mit-license.org
 "
 " @author Roman Naumenko <https://github.com/romannmk>
 
@@ -17,67 +16,70 @@ set background=dark
 
 let g:colors_name = "ambiance"
 
+hi Boolean         guifg=#ff0087    guibg=none       ctermfg=198    ctermbg=none     gui=none         cterm=none
+hi Error           guifg=#ff0087    guibg=none       ctermfg=198    ctermbg=none     gui=none         cterm=none
+hi Function        guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none     gui=bold         cterm=bold
+hi Normal          guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none     gui=none         cterm=none
+hi Statement       guifg=#9e9e9e    guibg=none       ctermfg=247    ctermbg=none     gui=none         cterm=none
+hi Type            guifg=#9e9e9e    guibg=none       ctermfg=247    ctermbg=none     gui=bold         cterm=bold
+hi Pmenu           guifg=#9e9e9e    guibg=#1c1c1c    ctermfg=247    ctermbg=234      gui=none         cterm=none
+hi Underlined      guifg=#9e9e9e    guibg=none       ctermfg=247    ctermbg=none     gui=underline    cterm=underline
+hi PmenuSel        guifg=#ffffff    guibg=#ff0087    ctermfg=white  ctermbg=198      gui=none         cterm=none
+hi MatchParen      guifg=none       guibg=#afffff    ctermfg=none   ctermbg=159      gui=none         cterm=none
+hi StorageClass    guifg=#afffff    guibg=none       ctermfg=159    ctermbg=none     gui=none         cterm=none
+hi VertSplit       guifg=none       guibg=none       ctermfg=none   ctermbg=none     gui=none         cterm=none
+hi WarningMsg      guifg=none       guibg=#ffff00    ctermfg=none   ctermbg=11       gui=none         cterm=none
+hi String          guifg=#d0d0d0    guibg=none       ctermfg=252    ctermbg=none     gui=none         cterm=none
+hi Visual          guifg=#ffffff    guibg=#af00af    ctermfg=white  ctermbg=127      gui=none         cterm=none
+hi CursorLine      guifg=none       guibg=#262626    ctermfg=none   ctermbg=235      gui=none         cterm=none
+hi Comment         guifg=#585858    guibg=none       ctermfg=240    ctermbg=black    gui=none         cterm=none
+hi clear SignColumn
 hi clear ALEErrorSign
 hi clear ALEWarningSign
 hi ALEWarningSign ctermfg=yellow
 hi ALEErrorSign ctermfg=red
 
-hi Tag             guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
-hi xmlTag          guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
-hi xmlTagName      guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
-hi xmlEndTag       guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
-hi htmlTag         guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
-hi htmlTagName     guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
-hi htmlEndTag      guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
-hi Boolean         guifg=#FF0087    guibg=#000000    ctermfg=198    ctermbg=black    gui=NONE         cterm=NONE
-hi DiffChange      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi DiffDelete      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi DiffText        guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi Directory       guifg=#949494    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
-hi Error           guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi Function        guifg=#FFFFFF    guibg=#000000    ctermfg=white  ctermbg=black    gui=BOLD         cterm=BOLD
-hi Identifier      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi Ignore          guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi LineNr          guifg=#585858    guibg=#000000    ctermfg=240    ctermbg=black    gui=NONE         cterm=NONE
-hi MatchParen      guifg=#FFFFFF    guibg=#949494    ctermfg=white  ctermbg=246      gui=NONE         cterm=NONE
-hi ModeMsg         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi MoreMsg         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi NonText         guifg=#949494    guibg=#000000    ctermfg=black  ctermbg=black    gui=NONE         cterm=NONE
-hi Normal          guifg=#949494    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
-hi Number          guifg=#D0D0D0    guibg=#000000    ctermfg=252    ctermbg=black    gui=NONE         cterm=NONE
-hi Operator        guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi Pmenu           guifg=#949494    guibg=#1C1C1C    ctermfg=246    ctermbg=234      gui=NONE         cterm=NONE
-hi PmenuSbar       guifg=#949494    guibg=#1C1C1C    ctermfg=246    ctermbg=234      gui=NONE         cterm=NONE
-hi PmenuSel        guifg=#FFFFFF    guibg=#FF0087    ctermfg=white  ctermbg=198      gui=ITALIC       cterm=NONE
-hi PmenuThumb      guifg=#949494    guibg=#1C1C1C    ctermfg=246    ctermbg=234      gui=NONE         cterm=NONE
-hi PreProc         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi Repeat          guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi Special         guifg=#949494    guibg=#000000    ctermfg=white  ctermbg=black    gui=NONE         cterm=NONE
-hi SpecialKey      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=ITALIC       cterm=NONE
-hi Statement       guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi StatusLine      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi StatusLineNC    guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=ITALIC       cterm=NONE
-hi StorageClass    guifg=#AFFFFF    Guibg=#000000    ctermfg=159    ctermbg=black    gui=BOLD         cterm=BOLD
-hi Structure       guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=BOLD         cterm=BOLD
-hi TabLine         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi TabLineFill     guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi TabLineSel      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=BOLD         cterm=BOLD
-hi Todo            guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=BOLD         cterm=BOLD
-hi Type            guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=BOLD         cterm=BOLD
-hi TypeDef         guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=BOLD         cterm=BOLD
-hi Underlined      guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=UNDERLINE    cterm=UNDERLINE
-hi VertSplit       guifg=#000000    guibg=#000000    ctermfg=black  ctermbg=black    gui=NONE         cterm=NONE
-hi WarningMsg      guifg=#000000    guibg=#ffff00    ctermfg=black  ctermbg=11       gui=NONE         cterm=NONE
-hi WildMenu        guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi Conditional     guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi Constant        guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE
-hi Type            guifg=#949494    guibg=#000000    ctermfg=246    ctermbg=black    gui=NONE         cterm=NONE     
-hi String          guifg=#D0D0D0    guibg=#000000    ctermfg=252    ctermbg=NONE     gui=NONE         cterm=NONE
-hi Comment         guifg=#585858    guibg=#000000    ctermfg=240    ctermbg=black    gui=ITALIC       cterm=NONE
-hi Visual          guifg=#FFFFFF    guibg=#AF00AF    ctermfg=white  ctermbg=127      gui=ITALIC       cterm=NONE
-hi CursorLine      guifg=#262626    guibg=NONE       ctermfg=NONE   ctermbg=235      gui=NONE         cterm=NONE
-hi CursorLineNr    guifg=#262626    guibg=NONE       ctermfg=NONE   ctermbg=235      gui=NONE         cterm=NONE
-hi def link jsObjectKey Statement
-hi clear SignColumn
+hi! link xmlTag Normal
+hi! link xmlTagName Normal
+hi! link xmlEndTag Normal
+hi! link htmlTag Normal
+hi! link htmlTagName Normal
+hi! link htmlEndTag Normal
+
+hi! link Directory Normal
+
+hi! link Ignore Statement
+hi! link MoreMsg Statement
+hi! link NonText Statement
+hi! link Identifier Statement
+hi! link PreProc Statement
+hi! link SpecialKey Statement
+hi! link StatusLine Statement
+hi! link StatusLineNC Statement
+hi! link TabLine Statement
+hi! link TabLineFill Statement
+hi! link WildMenu Statement
+hi! link Conditional Statement
+hi! link Constant Statement
+hi! link Type Statement
+hi! link jsObjectKey Statement
+hi! link jsThis Statement
+
+hi! link jsDecorator Error
+
+hi! link Structure Type
+hi! link TabLineSel Type
+hi! link Todo Type
+hi! link TypeDef Type
+
+hi! link PmenuSbar Pmenu
+hi! link PmenuThumb Pmenu
+
+hi! link Number String
+hi! link Float String
+
+hi! link CursorLineNr CursorLine
+
+hi! link LineNr Comment
 
 execute "set background=dark"
