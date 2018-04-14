@@ -24,7 +24,7 @@ hi Pmenu           guifg=#a8a8a8    guibg=#1c1c1c    ctermfg=248    ctermbg=234 
 hi Underlined      guifg=#a8a8a8    guibg=none       ctermfg=248    ctermbg=none     gui=underline    cterm=underline
 hi PmenuSel        guifg=#ffffff    guibg=#ff0087    ctermfg=white  ctermbg=198      gui=none         cterm=none
 hi MatchParen      guifg=#000000    guibg=#afffff    ctermfg=black  ctermbg=159      gui=none         cterm=none
-hi Boolean         guifg=#afffff    guibg=none       ctermfg=159    ctermbg=none     gui=none         cterm=none
+hi StorageClass    guifg=#afffff    guibg=none       ctermfg=159    ctermbg=none     gui=none         cterm=none
 hi VertSplit       guifg=black      guibg=black      ctermfg=black  ctermbg=black    gui=none         cterm=none
 hi WarningMsg      guifg=none       guibg=#ffff00    ctermfg=none   ctermbg=11       gui=none         cterm=none
 hi String          guifg=#d0d0d0    guibg=none       ctermfg=252    ctermbg=none     gui=none         cterm=none
@@ -63,6 +63,8 @@ hi! link Constant Normal
 hi! link Type Statement
 hi! link jsObjectKey Statement
 hi! link jsThis Statement
+
+hi! link Boolean Error
 
 hi! link Structure Type
 hi! link TabLineSel Type
