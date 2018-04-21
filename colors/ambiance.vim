@@ -23,15 +23,15 @@ hi Statement       guifg=#a8a8a8    guibg=none       ctermfg=248    ctermbg=none
 hi Pmenu           guifg=#a8a8a8    guibg=#1c1c1c    ctermfg=248    ctermbg=234      gui=none         cterm=none
 hi Underlined      guifg=#a8a8a8    guibg=none       ctermfg=248    ctermbg=none     gui=underline    cterm=underline
 hi PmenuSel        guifg=#ffffff    guibg=#ff0087    ctermfg=white  ctermbg=198      gui=none         cterm=none
-hi MatchParen      guifg=#000000    guibg=#afffff    ctermfg=black  ctermbg=159      gui=none         cterm=none
+hi MatchParen      guifg=#000000    guibg=#a8a8a8    ctermfg=black  ctermbg=248      gui=none         cterm=none
 hi StorageClass    guifg=#afffff    guibg=none       ctermfg=159    ctermbg=none     gui=none         cterm=none
 hi VertSplit       guifg=black      guibg=black      ctermfg=black  ctermbg=black    gui=none         cterm=none
 hi WarningMsg      guifg=none       guibg=#ffff00    ctermfg=none   ctermbg=11       gui=none         cterm=none
 hi String          guifg=#d0d0d0    guibg=none       ctermfg=252    ctermbg=none     gui=none         cterm=none
-hi Visual          guifg=#ffffff    guibg=#af00af    ctermfg=white  ctermbg=127      gui=none         cterm=none
-hi CursorLine      guifg=none       guibg=#1c1c1c    ctermfg=none   ctermbg=234      gui=none         cterm=none
-hi Comment         guifg=#585858    guibg=none       ctermfg=240    ctermbg=black    gui=none         cterm=none
-hi NonText         guifg=#000000    guibg=#000000    ctermfg=black  ctermbg=black    gui=none         cterm=none
+hi Visual          guifg=#ffffff    guibg=#870087    ctermfg=white  ctermbg=90       gui=none         cterm=none
+hi CursorLine      guifg=none       guibg=#1c1c1c    ctermfg=none   ctermbg=235      gui=none         cterm=none
+hi Comment         guifg=#585858    guibg=none       ctermfg=240    ctermbg=none     gui=none         cterm=none
+hi NonText         guifg=#585858    guibg=none       ctermfg=240    ctermbg=none     gui=none         cterm=none
 
 hi clear SignColumn
 hi clear ALEErrorSign
