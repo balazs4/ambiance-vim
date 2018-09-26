@@ -26,7 +26,7 @@ hi PmenuSel        guifg=#ffffff    guibg=#ff0087    ctermfg=white  ctermbg=198 
 hi MatchParen      guifg=#000000    guibg=#a8a8a8    ctermfg=black  ctermbg=248      gui=none         cterm=none
 hi StorageClass    guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none     gui=none         cterm=none
 hi VertSplit       guifg=black      guibg=black      ctermfg=black  ctermbg=black    gui=none         cterm=none
-hi WarningMsg      guifg=none       guibg=#ffff00    ctermfg=none   ctermbg=11       gui=none         cterm=none
+hi WarningMsg      guifg=black      guibg=#ffff00    ctermfg=black  ctermbg=11       gui=none         cterm=none
 hi String          guifg=#a8a8a8    guibg=none       ctermfg=248    ctermbg=none     gui=none         cterm=none
 hi Visual          guifg=#ffffff    guibg=#870087    ctermfg=white  ctermbg=90       gui=none         cterm=none
 hi CursorLine      guifg=none       guibg=#1c1c1c    ctermfg=none   ctermbg=235      gui=none         cterm=none
