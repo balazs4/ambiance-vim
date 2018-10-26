@@ -34,6 +34,7 @@ hi Comment         guifg=#585858    guibg=none       ctermfg=240    ctermbg=none
 hi NonText         guifg=#585858    guibg=none       ctermfg=240    ctermbg=none     gui=none         cterm=none
 hi DiffAdd         guifg=#00ff00    guibg=none       ctermfg=10     ctermbg=none     gui=none         cterm=none
 hi DiffDelete      guifg=#ff0000    guibg=none       ctermfg=9      ctermbg=none     gui=none         cterm=none
+hi DiffChange      guifg=#ffff00    guibg=none       ctermfg=11     ctermbg=none     gui=none         cterm=none
 
 hi clear SignColumn
 hi clear ALEErrorSign
