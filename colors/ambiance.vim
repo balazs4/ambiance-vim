@@ -22,7 +22,7 @@ hi Normal          guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none
 hi Statement       guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none     gui=none         cterm=none
 hi Pmenu           guifg=#ffffff    guibg=#1c1c1c    ctermfg=white  ctermbg=234      gui=none         cterm=none
 hi Underlined      guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none     gui=underline    cterm=underline
-hi PmenuSel        guifg=#ffffff    guibg=#ff0087    ctermfg=white  ctermbg=198      gui=none         cterm=none
+hi PmenuSel        guifg=#ff0087    guibg=#ffffff    ctermfg=198    ctermbg=white    gui=none         cterm=none
 hi MatchParen      guifg=#000000    guibg=#a8a8a8    ctermfg=black  ctermbg=248      gui=none         cterm=none
 hi StorageClass    guifg=#afffff    guibg=none       ctermfg=159    ctermbg=none     gui=none         cterm=none
 hi VertSplit       guifg=black      guibg=black      ctermfg=black  ctermbg=black    gui=none         cterm=none
