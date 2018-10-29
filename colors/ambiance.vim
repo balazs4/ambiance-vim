@@ -22,7 +22,7 @@ hi Normal          guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none
 hi Statement       guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none     gui=none         cterm=none
 hi Pmenu           guifg=#ffffff    guibg=#1c1c1c    ctermfg=white  ctermbg=234      gui=none         cterm=none
 hi Underlined      guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none     gui=underline    cterm=underline
-hi PmenuSel        guifg=#ffffff    guibg=#ff0087    ctermfg=white  ctermbg=198      gui=none         cterm=none
+hi PmenuSel        guifg=#ff0087    guibg=#ffffff    ctermfg=198    ctermbg=white    gui=none         cterm=none
 hi MatchParen      guifg=#000000    guibg=#a8a8a8    ctermfg=black  ctermbg=248      gui=none         cterm=none
 hi StorageClass    guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none     gui=none         cterm=none
 hi VertSplit       guifg=black      guibg=black      ctermfg=black  ctermbg=black    gui=none         cterm=none
@@ -32,6 +32,10 @@ hi Visual          guifg=#ffffff    guibg=#870087    ctermfg=white  ctermbg=90  
 hi CursorLine      guifg=none       guibg=#1c1c1c    ctermfg=none   ctermbg=235      gui=none         cterm=none
 hi Comment         guifg=#585858    guibg=none       ctermfg=240    ctermbg=none     gui=none         cterm=none
 hi NonText         guifg=#585858    guibg=none       ctermfg=240    ctermbg=none     gui=none         cterm=none
+hi DiffAdd         guifg=#00ff00    guibg=none       ctermfg=10     ctermbg=none     gui=none         cterm=none
+hi DiffDelete      guifg=#ff0000    guibg=none       ctermfg=9      ctermbg=none     gui=none         cterm=none
+hi DiffChange      guifg=#ffff00    guibg=none       ctermfg=11     ctermbg=none     gui=none         cterm=none
+
 
 hi clear SignColumn
 hi clear ALEErrorSign
