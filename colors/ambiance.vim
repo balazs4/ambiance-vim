@@ -29,14 +29,6 @@ hi String          guifg=#a8a8a8    guibg=none       ctermfg=248    ctermbg=none
 hi Visual          guifg=#ffffff    guibg=#870087    ctermfg=white  ctermbg=90       gui=none         cterm=none
 hi CursorLine      guifg=none       guibg=#1c1c1c    ctermfg=none   ctermbg=234      gui=none         cterm=none
 hi Comment         guifg=#585858    guibg=none       ctermfg=240    ctermbg=none     gui=none         cterm=none
-hi NonText         guifg=#585858    guibg=none       ctermfg=240    ctermbg=none     gui=none         cterm=none
-hi DiffAdd         guifg=#00ff00    guibg=none       ctermfg=10     ctermbg=none     gui=none         cterm=none
-hi DiffDelete      guifg=#ff0000    guibg=none       ctermfg=9      ctermbg=none     gui=none         cterm=none
-hi DiffChange      guifg=#ffff00    guibg=none       ctermfg=11     ctermbg=none     gui=none         cterm=none
-hi diffFile cterm=NONE ctermfg=DarkBlue
-hi gitcommitDiff cterm=NONE ctermfg=DarkBlue
-hi diffIndexLine cterm=NONE ctermfg=DarkBlue
-hi diffLine cterm=NONE ctermfg=DarkBlue
 
 hi clear SignColumn
 hi clear ALEErrorSign
@@ -60,12 +52,9 @@ hi! link jsObjectKey Normal
 hi! link jsThis Normal
 hi! link Conditional Normal
 hi! link StorageClass Normal
+hi! link PreProc Normal
 
 hi! link Ignore String
-hi! link MoreMsg String
-hi! link Identifier String
-hi! link PreProc String
-hi! link SpecialKey String
 hi! link StatusLine String
 hi! link StatusLineNC String
 hi! link TabLine String
@@ -73,10 +62,13 @@ hi! link TabLineFill String
 hi! link WildMenu String
 hi! link Number String
 hi! link Float String
-hi! link Structure String
 hi! link TabLineSel String
 hi! link Todo String
+hi! link SpecialKey String
+hi! link Structure String
+hi! link Identifier String
 hi! link TypeDef String
+hi! link MoreMsg String
 
 hi! link Search WarningMsg
 
@@ -87,5 +79,6 @@ hi! link PmenuThumb Pmenu
 hi! link CursorLineNr CursorLine
 
 hi! link LineNr Comment
+hi! link NonText Comment
 
 execute "set background=dark"
