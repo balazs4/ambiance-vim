@@ -53,6 +53,7 @@ hi! link jsThis Normal
 hi! link Conditional Normal
 hi! link StorageClass Normal
 hi! link PreProc Normal
+hi! link Title Normal
 
 hi! link Ignore String
 hi! link StatusLine String
@@ -69,6 +70,9 @@ hi! link Structure String
 hi! link Identifier String
 hi! link TypeDef String
 hi! link MoreMsg String
+hi! link Directory String
+hi! link DiffText String
+hi! link TabLineSel String
 
 hi! link Search WarningMsg
 
