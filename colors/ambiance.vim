@@ -25,7 +25,8 @@ hi PmenuSel        guifg=#ffffff    guibg=#ff0087    ctermfg=white  ctermbg=198 
 hi MatchParen      guifg=#000000    guibg=#a8a8a8    ctermfg=black  ctermbg=248      gui=none         cterm=none
 hi VertSplit       guifg=black      guibg=black      ctermfg=black  ctermbg=black    gui=none         cterm=none
 hi WarningMsg      guifg=black      guibg=#ffff00    ctermfg=black  ctermbg=11       gui=none         cterm=none
-hi String          guifg=#a8a8a8    guibg=none       ctermfg=248    ctermbg=none     gui=none         cterm=none
+hi String          guifg=#949494    guibg=none       ctermfg=246    ctermbg=none     gui=none         cterm=none
+hi Statement       guifg=#d0d0d0    guibg=none       ctermfg=252    ctermbg=none     gui=none         cterm=none
 hi Visual          guifg=#ffffff    guibg=#444444    ctermfg=white  ctermbg=238      gui=none         cterm=none
 hi CursorLine      guifg=none       guibg=#1c1c1c    ctermfg=none   ctermbg=234      gui=none         cterm=none
 hi Comment         guifg=#585858    guibg=none       ctermfg=240    ctermbg=none     gui=none         cterm=none
@@ -44,7 +45,6 @@ hi! link htmlTagName Normal
 hi! link htmlEndTag Normal
 hi! link Special Normal
 hi! link Directory Normal
-hi! link Statement Normal
 hi! link Boolean Normal
 hi! link Constant Normal
 hi! link Type Normal
