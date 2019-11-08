@@ -22,20 +22,22 @@ hi Normal          guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none
 hi Pmenu           guifg=#a8a8a8    guibg=#1c1c1c    ctermfg=248    ctermbg=234      gui=none         cterm=none
 hi Underlined      guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none     gui=underline    cterm=underline
 hi PmenuSel        guifg=#ffffff    guibg=#ff0087    ctermfg=white  ctermbg=198      gui=none         cterm=none
-hi MatchParen      guifg=#000000    guibg=#a8a8a8    ctermfg=black  ctermbg=248      gui=none         cterm=none
-hi VertSplit       guifg=black      guibg=black      ctermfg=black  ctermbg=black    gui=none         cterm=none
-hi WarningMsg      guifg=black      guibg=#ffff00    ctermfg=black  ctermbg=11       gui=none         cterm=none
-hi String          guifg=#949494    guibg=none       ctermfg=246    ctermbg=none     gui=none         cterm=none
-hi Statement       guifg=#d0d0d0    guibg=none       ctermfg=252    ctermbg=none     gui=none         cterm=none
+hi MatchParen      guifg=#000000    guibg=#ffff00    ctermfg=black  ctermbg=11       gui=none         cterm=none
+hi VertSplit       guifg=#000000    guibg=black      ctermfg=black  ctermbg=black    gui=none         cterm=none
+hi WarningMsg      guifg=#000000    guibg=#ffff00    ctermfg=black  ctermbg=11       gui=none         cterm=none
+hi String          guifg=#808080    guibg=none       ctermfg=244    ctermbg=none     gui=none         cterm=none
+hi Statement       guifg=#bcbcbc    guibg=none       ctermfg=250    ctermbg=none     gui=none         cterm=none
 hi Visual          guifg=#ffffff    guibg=#444444    ctermfg=white  ctermbg=238      gui=none         cterm=none
 hi CursorLine      guifg=none       guibg=#1c1c1c    ctermfg=none   ctermbg=234      gui=none         cterm=none
-hi Comment         guifg=#585858    guibg=none       ctermfg=240    ctermbg=none     gui=none         cterm=none
+hi Comment         guifg=#4e4e4e    guibg=none       ctermfg=239    ctermbg=none     gui=none         cterm=none
 
 hi clear SignColumn
 hi clear ALEErrorSign
 hi clear ALEWarningSign
 hi ALEWarningSign ctermfg=yellow
 hi ALEErrorSign ctermfg=red
+
+hi! link StorageClass Function
 
 hi! link xmlTag Normal
 hi! link xmlTagName Normal
@@ -45,13 +47,11 @@ hi! link htmlTagName Normal
 hi! link htmlEndTag Normal
 hi! link Special Normal
 hi! link Directory Normal
-hi! link Boolean Normal
 hi! link Constant Normal
 hi! link Type Normal
 hi! link jsObjectKey Normal
 hi! link jsThis Normal
 hi! link Conditional Normal
-hi! link StorageClass Normal
 hi! link PreProc Normal
 hi! link Title Normal
 
@@ -75,6 +75,8 @@ hi! link DiffText String
 hi! link TabLineSel String
 
 hi! link Search WarningMsg
+
+hi! link Boolean Error
 
 hi! link PmenuSbar Pmenu
 hi! link PmenuThumb Pmenu
