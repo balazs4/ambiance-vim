@@ -2,7 +2,7 @@
 "
 " https://github.com/romannmk/ambiance-vim
 "
-" Copyright 2018, All rights reserved
+" Copyright 2019, All rights reserved
 "
 " Code licensed under the MIT license
 "
@@ -16,26 +16,30 @@ set background=dark
 
 let g:colors_name = "ambiance"
 
-hi Error           guifg=#ff0087    guibg=none       ctermfg=198    ctermbg=none     gui=none         cterm=none
-hi Function        guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none     gui=bold         cterm=bold
-hi Normal          guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none     gui=none         cterm=none
-hi Pmenu           guifg=#a8a8a8    guibg=#1c1c1c    ctermfg=248    ctermbg=234      gui=none         cterm=none
-hi Underlined      guifg=#ffffff    guibg=none       ctermfg=white  ctermbg=none     gui=underline    cterm=underline
-hi PmenuSel        guifg=#ffffff    guibg=#ff0087    ctermfg=white  ctermbg=198      gui=none         cterm=none
-hi MatchParen      guifg=#000000    guibg=#ffff00    ctermfg=black  ctermbg=11       gui=none         cterm=none
-hi VertSplit       guifg=#000000    guibg=black      ctermfg=black  ctermbg=black    gui=none         cterm=none
-hi WarningMsg      guifg=#000000    guibg=#ffff00    ctermfg=black  ctermbg=11       gui=none         cterm=none
-hi String          guifg=#808080    guibg=none       ctermfg=244    ctermbg=none     gui=none         cterm=none
-hi Statement       guifg=#bcbcbc    guibg=none       ctermfg=250    ctermbg=none     gui=none         cterm=none
-hi Visual          guifg=#ffffff    guibg=#444444    ctermfg=white  ctermbg=238      gui=none         cterm=none
-hi CursorLine      guifg=none       guibg=#1c1c1c    ctermfg=none   ctermbg=234      gui=none         cterm=none
-hi Comment         guifg=#4e4e4e    guibg=none       ctermfg=239    ctermbg=none     gui=none         cterm=none
+hi Error             guifg=#ff0087    guibg=none       ctermfg=198    ctermbg=none     gui=none         cterm=none
+hi Function          guifg=#ffffff    guibg=none       ctermfg=15     ctermbg=none     gui=bold         cterm=bold
+hi Normal            guifg=#ffffff    guibg=none       ctermfg=15     ctermbg=none     gui=none         cterm=none
+hi Pmenu             guifg=#a8a8a8    guibg=#1c1c1c    ctermfg=248    ctermbg=234      gui=none         cterm=none
+hi Underlined        guifg=#ffffff    guibg=none       ctermfg=15     ctermbg=none     gui=underline    cterm=underline
+hi PmenuSel          guifg=#ffffff    guibg=#ff0087    ctermfg=15     ctermbg=198      gui=none         cterm=none
+hi MatchParen        guifg=#000000    guibg=#afffd7    ctermfg=0      ctermbg=158      gui=none         cterm=none
+hi VertSplit         guifg=#000000    guibg=black      ctermfg=0      ctermbg=0        gui=none         cterm=none
+hi WarningMsg        guifg=#000000    guibg=#ffff00    ctermfg=0      ctermbg=11       gui=none         cterm=none
+hi String            guifg=#808080    guibg=none       ctermfg=244    ctermbg=none     gui=none         cterm=none
+hi Statement         guifg=#bcbcbc    guibg=none       ctermfg=250    ctermbg=none     gui=none         cterm=none
+hi CursorLine        guifg=none       guibg=#1c1c1c    ctermfg=none   ctermbg=234      gui=none         cterm=none
+hi Comment           guifg=#4e4e4e    guibg=none       ctermfg=239    ctermbg=none     gui=none         cterm=none
+hi Visual            guifg=#ffffff    guibg=#d700d7    ctermfg=15     ctermbg=164      gui=none         cterm=none
+hi EndOfBuffer       guifg=#000000    guibg=#000000    ctermfg=none   ctermbg=0        gui=none         cterm=none
+hi gitDiffStatAdd    guifg=#00ff00    guibg=#000000    ctermfg=10     ctermbg=0        gui=none         cterm=none
+hi gitDiffStatDelete guifg=#ff0000    guibg=#000000    ctermfg=9      ctermbg=0        gui=none         cterm=none
+hi ALEWarningSign    guifg=#ffff00    guibg=#000000    ctermfg=11     ctermbg=0        gui=none         cterm=none
+hi ALEErrorSign      guifg=#ff0000    guibg=#000000    ctermfg=9      ctermbg=0        gui=none         cterm=none
+hi NonText           guifg=#000000    guibg=#000000    ctermfg=0      ctermbg=0        gui=none         cterm=none
 
 hi clear SignColumn
 hi clear ALEErrorSign
 hi clear ALEWarningSign
-hi ALEWarningSign ctermfg=yellow
-hi ALEErrorSign ctermfg=red
 
 hi! link StorageClass Function
 
@@ -54,7 +58,6 @@ hi! link jsThis Normal
 hi! link Conditional Normal
 hi! link PreProc Normal
 hi! link Title Normal
-
 hi! link Ignore String
 hi! link StatusLine String
 hi! link StatusLineNC String
@@ -73,18 +76,17 @@ hi! link MoreMsg String
 hi! link Directory String
 hi! link DiffText String
 hi! link TabLineSel String
-
 hi! link Search WarningMsg
-
 hi! link Boolean Error
-
 hi! link PmenuSbar Pmenu
 hi! link PmenuThumb Pmenu
-
-
 hi! link CursorLineNr CursorLine
-
 hi! link LineNr Comment
 hi! link NonText Comment
+
+syntax match gitDiffStatLine /^ .\{-}\zs[+-]\+$/ contains=gitDiffStatAdd,gitDiffStatDelete
+syntax match gitDiffStatAdd    /+/ contained
+syntax match gitDiffStatDelete /-/ contained
+
 
 execute "set background=dark"
