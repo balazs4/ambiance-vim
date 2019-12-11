@@ -21,8 +21,7 @@ hi Function          guifg=#ffffff    guibg=none       ctermfg=15     ctermbg=no
 hi Normal            guifg=#ffffff    guibg=none       ctermfg=15     ctermbg=none     gui=none         cterm=none
 hi Pmenu             guifg=#a8a8a8    guibg=#1c1c1c    ctermfg=248    ctermbg=234      gui=none         cterm=none
 hi Underlined        guifg=#ffffff    guibg=none       ctermfg=15     ctermbg=none     gui=underline    cterm=underline
-hi PmenuSel          guifg=#ffffff    guibg=#ff0087    ctermfg=15     ctermbg=198      gui=none         cterm=none
-hi MatchParen        guifg=#000000    guibg=#afffd7    ctermfg=0      ctermbg=158      gui=none         cterm=none
+hi MatchParen        guifg=#ffffff    guibg=#ff00ff    ctermfg=15     ctermbg=201      gui=none         cterm=none
 hi VertSplit         guifg=#000000    guibg=black      ctermfg=0      ctermbg=0        gui=none         cterm=none
 hi WarningMsg        guifg=#000000    guibg=#ffff00    ctermfg=0      ctermbg=11       gui=none         cterm=none
 hi String            guifg=#808080    guibg=none       ctermfg=244    ctermbg=none     gui=none         cterm=none
@@ -78,6 +77,7 @@ hi! link DiffText String
 hi! link TabLineSel String
 hi! link Search WarningMsg
 hi! link Boolean Error
+hi! link PmenuSel MatchParen
 hi! link PmenuSbar Pmenu
 hi! link PmenuThumb Pmenu
 hi! link CursorLineNr CursorLine
