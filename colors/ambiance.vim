@@ -16,6 +16,10 @@ set background=dark
 
 let g:colors_name = "ambiance"
 
+hi clear SignColumn
+hi clear ALEErrorSign
+hi clear ALEWarningSign
+
 hi Error             guifg=#ff0087    guibg=none       ctermfg=198    ctermbg=none     gui=none         cterm=none
 hi Function          guifg=#ffffff    guibg=none       ctermfg=15     ctermbg=none     gui=bold         cterm=bold
 hi Normal            guifg=#ffffff    guibg=none       ctermfg=15     ctermbg=none     gui=none         cterm=none
@@ -36,9 +40,6 @@ hi ALEWarningSign    guifg=#ffff00    guibg=#000000    ctermfg=11     ctermbg=0 
 hi ALEErrorSign      guifg=#ff0000    guibg=#000000    ctermfg=9      ctermbg=0        gui=none         cterm=none
 hi NonText           guifg=#000000    guibg=#000000    ctermfg=0      ctermbg=0        gui=none         cterm=none
 
-hi clear SignColumn
-hi clear ALEErrorSign
-hi clear ALEWarningSign
 
 hi! link StorageClass Function
 
