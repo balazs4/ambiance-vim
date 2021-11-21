@@ -25,7 +25,7 @@ hi Function          guifg=#ffffff    guibg=#000000    ctermfg=15     ctermbg=no
 hi Normal            guifg=#ffffff    guibg=#000000    ctermfg=15     ctermbg=none     gui=none         cterm=none
 hi Pmenu             guifg=#a8a8a8    guibg=#1c1c1c    ctermfg=248    ctermbg=234      gui=none         cterm=none
 hi Underlined        guifg=#ffffff    guibg=#000000    ctermfg=15     ctermbg=none     gui=underline    cterm=underline
-hi MatchParen        guifg=#ff00ff    guibg=#ffffff    ctermfg=15     ctermbg=201      gui=none         cterm=none
+hi MatchParen        guifg=#ff00ff    guibg=#ffffff    ctermfg=201    ctermbg=15       gui=none         cterm=none
 hi VertSplit         guifg=#000000    guibg=#000000    ctermfg=0      ctermbg=0        gui=none         cterm=none
 hi WarningMsg        guifg=#000000    guibg=#ffff00    ctermfg=0      ctermbg=11       gui=none         cterm=none
 hi String            guifg=#808080    guibg=#000000    ctermfg=244    ctermbg=none     gui=none         cterm=none
