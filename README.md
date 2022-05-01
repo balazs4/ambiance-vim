@@ -2,15 +2,10 @@
 
 Minimal dark color theme for vim
 
-![Screenshot](https://github.com/romannmk/ambiance-vim/blob/master/ambiance.png)
-
 ### Installation
 
-If you use vim + vundle
-
 ```
-Plugin 'romannmk/ambiance-vim'
-:PluginInstall
+git clone --depth 1 --branch master https://github.com/balazs4/ambiance-vim $HOME/.vim/pack/_/opt/
 ```
 
 Add the following lines into your vimrc file
