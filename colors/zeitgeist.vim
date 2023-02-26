@@ -1,14 +1,14 @@
 " Minimal dark color theme
 "
 " orig: https://github.com/romannmk/ambiance-vim
-" forked: https://github.com/balazs4/ambiance-vim
+" fork: https://github.com/balazs4/zeitgeist
 "
 " Copyright 2022, All rights reserved
 "
 " Code licensed under the MIT license
 "
 " @author Roman Naumenko <https://github.com/romannmk>
-" @contrib Balazs Varga <https://github.com/balazs4>
+" @author Balazs Varga <https://github.com/balazs4>
 
 highlight clear
 if exists("syntax_on")
@@ -16,7 +16,7 @@ if exists("syntax_on")
 endif
 set background=dark
 
-let g:colors_name = "ambiance"
+let g:colors_name = "zeitgeist"
 
 hi clear SignColumn
 
